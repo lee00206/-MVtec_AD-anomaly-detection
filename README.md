@@ -4,7 +4,7 @@ The following codes are the solutions (1st place, private score: 0.92708) for th
 If you would like to know more about the competition, please refer to the following link:  
 https://dacon.io/competitions/official/235894/overview/description
 
-Briefly, the task is to classify an extremely imbalanced images into 88 classes 
+Briefly, the task is to classify an extremely imbalanced image dataset into 88 classes 
 in which the label is composed of class-state pairs.  
 To solve this problem, we used Efficientnet and Resnext as a backbone with different training methods (e.g. one-class self-supervised learning, arcFace loss, and  label smoothing).  
 We also blended the model weights and prediction results based on the validation results and hypothesis.  
